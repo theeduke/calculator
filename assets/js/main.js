@@ -4,5 +4,5 @@ const calcNumbers = (num) => {
 }
 const backspace = () => {
     let exp = document.form.displayResult.value;
-    document.form.displayResult.value = exp.substring(0, exp.length - 2);
+    document.form.displayResult.value = exp.substring(0, exp.length - 1);
 }
